@@ -22,7 +22,7 @@ gem "dependabot-swift", path: "../swift"
 gem "dependabot-terraform", path: "../terraform"
 
 gem "http", "~> 5.1"
-gem "octokit", "6.1.1"
+gem "octokit", "7.0.0"
 gem "sentry-raven", "~> 3.1"
 gem "terminal-table", "~> 3.0.2"
 
@@ -49,5 +49,5 @@ group :test do
 end
 
 group :development do
-  gem "licensed", "~> 4.4", require: false
+  gem "licensed", "~> 4.5", ">= 4.5.0", require: false
 end
